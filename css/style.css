@@ -1,0 +1,98 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  UTILITIES */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 10px;
+}
+
+/* HEADER */
+
+.main-header {
+  padding: 15px 20px;
+}
+
+.main-header a,
+.main-header i {
+  color: rgb(95, 94, 94);
+}
+
+.header-top {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  padding-right: 5px;
+}
+
+.privacy {
+  font-size: 22px;
+  letter-spacing: 0.4px;
+}
+
+.user {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.header-bottom li {
+  margin-right: 40px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+a.active {
+  color: rgb(46, 111, 197);
+}
+
+/* MAIN */
+
+.question {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: rgb(44, 43, 43);
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+.answer {
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: 0.4px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 26px;
+}
