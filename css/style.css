@@ -36,7 +36,7 @@ a {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 100px 10px;
+  padding: 40px 10px;
 }
 
 /* HEADER */
@@ -69,8 +69,11 @@ a {
   border-radius: 50%;
 }
 
-.header-bottom li {
+.header-bottom li:not(:last-child) {
   margin-right: 40px;
+}
+
+.header-bottom li {
   font-size: 15px;
   letter-spacing: 0.2px;
 }
